@@ -1,0 +1,25 @@
+<suite name="ABCDSelenium">
+	<test name="test">
+
+		<classes>
+	
+					
+					<class name="MYOWNPROGRAMS.Popup">
+				<methods>
+				<include name="f"/>
+				</methods>
+				</class>
+				
+				
+				<class name="MYOWNPROGRAMS.Mouseover">
+				<methods>
+				<include name="loginoverfun1"/>
+				<include name="loginoverfun"/>
+				</methods>
+				</class>
+				
+				
+		</classes>
+	
+	</test>
+</suite>
