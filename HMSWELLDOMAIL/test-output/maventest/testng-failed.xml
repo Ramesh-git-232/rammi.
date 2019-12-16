@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [maventest]">
+  <test thread-count="5" name="maventest(failed)">
+    <classes>
+      <class name="Mavenprograms.IRCTC">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- Mavenprograms.IRCTC -->
+    </classes>
+  </test> <!-- maventest(failed) -->
+</suite> <!-- Failed suite [maventest] -->

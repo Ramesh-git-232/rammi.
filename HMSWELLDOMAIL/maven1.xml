@@ -1,0 +1,10 @@
+
+
+<suite name="maventest">
+<test name="maventest">
+<classes>
+    
+   <class name="Mavenprograms.IRCTC"/>  
+</classes>
+</test>
+</suite>
