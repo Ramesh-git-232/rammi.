@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Repository">
+      <class name="Mavenprograms.SpicejetMouseover">
         <methods>
-          <include name="login"/>
+          <include name="openurl"/>
           <include name="afterTest"/>
-          <include name="setup"/>
+          <include name="mouseover"/>
         </methods>
-      </class> <!-- tests.Repository -->
+      </class> <!-- Mavenprograms.SpicejetMouseover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

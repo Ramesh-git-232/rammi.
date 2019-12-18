@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="PageObjectmodel.Repository">
+      <class name="Mavenprograms.CrossbrowserScript">
         <methods>
-          <include name="openurl"/>
+          <include name="testparameterwithxml"/>
           <include name="afterTest"/>
-          <include name="login"/>
+          <include name="VerifyTitlepage"/>
         </methods>
-      </class> <!-- PageObjectmodel.Repository -->
+      </class> <!-- Mavenprograms.CrossbrowserScript -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -24,7 +24,7 @@ WebElement ele2 = driver.findElement(By.xpath("//*[@id=\"smoothmenu1\"]/ul/li[15
 	  Thread.sleep(3000);
 	  driver.findElement(By.linkText("Member Login")).click();
 	  
-	  
+	   
   }
   @BeforeTest
   public void openurl() throws Exception {
